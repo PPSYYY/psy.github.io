@@ -1,0 +1,27 @@
+$upper_front_size: 20px;
+$upper_align: right;
+
+
+h1{
+    font-size: $upper_front_size;
+    text-align: $upper_align;
+    position: absolute; 
+    right: 10px;
+    top: 1px;
+}
+
+// For search bar
+$bar_align: center;
+$bar_radius: 20px;
+
+h2{
+    text-align: $bar_align;
+    border-radius: $bar_radius;
+}
+
+body{
+    color: #4d5156;
+    font-family: Arial, sans-serif;
+    margin: 80px;
+    border-width: 0px;
+}
